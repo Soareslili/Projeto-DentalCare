@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+
+@theme {
+
+    --color-background: #F9FAFB;
+    --color-primary: #1B7E67;
+    --color-secundary: #1D2025;
+     --color-card:#D6EBE2
+}
+
+    /* blacckground */
+
+    * {
+        --color-background-liner: #88BCB0;
+        --color-background-liner-2: #419481;
+    }
+
+    /* Footer */
+    
+    * {
+        --color-footer: #1D2025;
+    }
+    
+ 
