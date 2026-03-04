@@ -5,8 +5,12 @@
 
     --color-background: #F9FAFB;
     --color-primary: #1B7E67;
-    --color-secundary: #1D2025;
-     --color-card:#D6EBE2
+    --color-secondary: #1D2025;
+     --color-card:#D6EBE2;
+    --color-foreground: #919191;
+        --color-muted: #E5E5E5;
+        --color-muted-foreground: #A0A0A0;
+    
 }
 
     /* blacckground */

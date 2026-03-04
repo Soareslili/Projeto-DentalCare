@@ -23,13 +23,13 @@ export const Hero = () => {
                         className="space-y-6"
                     >
                         <div
-                           
+
                             className="inline-block bg-[#D6EBE2] px-6 py-2 rounded-full"
                         >
                             <span className="text-primary font-medium">✨ Cuidado Odontológico Premium</span>
                         </div>
 
-                        <h1 className="font-heading text-5xl md:text-7xl w-150 font-bold text-foreground">
+                        <h1 className="font-heading text-5xl md:text-7xl w-150 font-bold text-secondary">
                             Sorrisos Saudáveis{" "}
                             <span className="text-primary">para Toda a Família</span>
                         </h1>
@@ -49,14 +49,14 @@ export const Hero = () => {
                 </div>
 
                 <div
-                    className="hidden lg:block absolute right-20 top-1/2 -translate-y-1/2 bg-white rounded-3xl p-8 shadow-2xl"
+                    className="hidden lg:block absolute right-20 top-1/2 -translate-y-1/2 bg-white rounded-3xl p-8 shadow-2xl hover:shadow-3xl transition-shadow duration-300 animate-bounce"
+                  style={{ animationDuration: "3s" }}
                 >
-                    <div className="text-center space-y-2">
+                    <div className="text-center space-y-2 ">
                         <div className="text-5xl font-bold text-primary">15+</div>
-                        <div className="text-muted-foreground">Anos de<br />Experiência</div>
+                        <div className="text-secondary">Anos de<br />Experiência</div>
                     </div>
-                </div>
-            </div>
+                </div>    </div>
         </section>
     );
 };
