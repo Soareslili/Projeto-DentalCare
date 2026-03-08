@@ -65,7 +65,7 @@ export const Services = () => {
                 transition={{ delay: index * 0.1 }}
                 className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow"
               >
-                <div className="w-16 h-16 rounded-xl bg-secondary flex items-center justify-center mb-6">
+                <div className="w-16 h-16 rounded-xl bg-[#88BCB0] flex items-center justify-center mb-6">
                   <Icon className="w-8 h-8 text-primary" />
                 </div>
                 <h3 className="font-heading text-xl font-semibold text-secundary mb-3">
